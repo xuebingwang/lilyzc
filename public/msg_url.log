@@ -1,0 +1,1146 @@
+执行日期：2016-02-29-00：%M：%S
+manage_msg 参数1MSG_ADMIN_MANAGE,
+
+执行日期：2016-02-29-00：%M：%S
+manage_msg 参数2array (
+  'type' => '管理员登录',
+  'content' => 'admin登录成功',
+)
+
+执行日期：2016-02-29-00：%M：%S
+msg_admin_manage
+
+执行日期：2016-02-29-01：%M：%S
+manage_msg 参数1MSG_MEMBER_REMIDE,20
+
+执行日期：2016-02-29-01：%M：%S
+manage_msg 参数2array (
+  'type' => '会员注册',
+  'content' => '您于 124.202.243.78注册成功!',
+)
+
+执行日期：2016-02-29-01：%M：%S
+function msg_member_remind :user_info
+
+执行日期：2016-02-29-01：%M：%S
+array (
+  'id' => '20',
+  'user_name' => 'vitakung',
+  'user_pwd' => '29c22315747814fd2e4c5364942040eb',
+  'create_time' => '1456650404',
+  'update_time' => '0',
+  'is_effect' => '1',
+  'email' => '462414875@qq.com',
+  'money' => '0.00',
+  'login_time' => '0',
+  'login_ip' => '',
+  'province' => '北京',
+  'city' => '朝阳区',
+  'password_verify' => '',
+  'sex' => '1',
+  'build_count' => '0',
+  'support_count' => '0',
+  'focus_count' => '0',
+  'integrate_id' => '0',
+  'intro' => '',
+  'ex_real_name' => '',
+  'ex_account_bank' => '',
+  'ex_account_info' => '',
+  'ex_contact' => '',
+  'ex_qq' => '',
+  'code' => '',
+  'sina_id' => '',
+  'sina_token' => '',
+  'sina_secret' => '',
+  'sina_url' => '',
+  'tencent_id' => '',
+  'tencent_token' => '',
+  'tencent_secret' => '',
+  'tencent_url' => '',
+  'verify' => '',
+  'user_level' => '0',
+  'mobile' => '15510192688',
+  'user_type' => '0',
+  'is_has_send_success' => '0',
+  'is_bank' => '0',
+  'verify_time' => NULL,
+  'verify_setting' => NULL,
+  'verify_setting_time' => '0',
+  'identify_name' => '',
+  'identify_number' => '',
+  'identify_positive_image' => '',
+  'identify_nagative_image' => '',
+  'identify_business_licence' => '',
+  'identify_business_code' => '',
+  'identify_business_tax' => '',
+  'identify_business_name' => '',
+  'is_investor' => '1',
+  'mortgage_money' => '0.00',
+  'investor_status' => '1',
+  'investor_status_send' => '0',
+  'break_num' => '0',
+  'wx_openid' => '',
+  'investor_send_info' => '',
+  'paypassword' => '',
+  'source_url' => '',
+  'ips_mer_code' => '',
+  'ips_acct_no' => NULL,
+  'pid' => '0',
+  'score' => '0',
+  'is_send_referrals' => '0',
+  'referral_count' => '0',
+  'point' => '0',
+  'cate_name' => '',
+  'company' => '',
+  'job' => '',
+  'head_image' => '',
+  'wjdpay_token' => '',
+  'cy_money' => '',
+  'concept' => '',
+  'investment_num' => '0',
+  'investment_begin' => '0.00',
+  'investment_end' => '0.00',
+  'gz_region' => '',
+  'bankLicense' => '',
+  'orgNo' => '',
+  'businessLicense' => '',
+  'contact' => '',
+  'memberClassType' => NULL,
+  'taxNo' => NULL,
+  'company_create_time' => '0',
+  'company_english_name' => '',
+  'company_url' => '',
+  'focus_company_count' => '0',
+  'card' => '',
+  'identity_conditions' => '0',
+  'credit_report' => '',
+  'housing_certificate' => '',
+  'is_binding' => '0',
+  'user_id' => '20',
+  'control_type' => '会员注册',
+  'control_content' => '您于 124.202.243.78注册成功!',
+  'control_url' => '',
+)
+
+执行日期：2016-02-29-01：%M：%S
+manage_msg 参数1MSG_MEMBER_REMIDE,20
+
+执行日期：2016-02-29-01：%M：%S
+manage_msg 参数2array (
+  'type' => '会员登录',
+  'content' => '您的帐号  vitakung  于   124.202.243.78  登录!',
+)
+
+执行日期：2016-02-29-01：%M：%S
+function msg_member_remind :user_info
+
+执行日期：2016-02-29-01：%M：%S
+array (
+  'id' => '20',
+  'user_name' => 'vitakung',
+  'user_pwd' => '29c22315747814fd2e4c5364942040eb',
+  'create_time' => '1456650404',
+  'update_time' => '0',
+  'is_effect' => '1',
+  'email' => '462414875@qq.com',
+  'money' => '0.00',
+  'login_time' => '1456650417',
+  'login_ip' => '124.202.243.78',
+  'province' => '北京',
+  'city' => '朝阳区',
+  'password_verify' => '',
+  'sex' => '1',
+  'build_count' => '0',
+  'support_count' => '0',
+  'focus_count' => '0',
+  'integrate_id' => '0',
+  'intro' => '',
+  'ex_real_name' => '',
+  'ex_account_bank' => '',
+  'ex_account_info' => '',
+  'ex_contact' => '',
+  'ex_qq' => '',
+  'code' => '',
+  'sina_id' => '',
+  'sina_token' => '',
+  'sina_secret' => '',
+  'sina_url' => '',
+  'tencent_id' => '',
+  'tencent_token' => '',
+  'tencent_secret' => '',
+  'tencent_url' => '',
+  'verify' => '',
+  'user_level' => '0',
+  'mobile' => '15510192688',
+  'user_type' => '0',
+  'is_has_send_success' => '0',
+  'is_bank' => '0',
+  'verify_time' => NULL,
+  'verify_setting' => NULL,
+  'verify_setting_time' => '0',
+  'identify_name' => '',
+  'identify_number' => '',
+  'identify_positive_image' => '',
+  'identify_nagative_image' => '',
+  'identify_business_licence' => '',
+  'identify_business_code' => '',
+  'identify_business_tax' => '',
+  'identify_business_name' => '',
+  'is_investor' => '1',
+  'mortgage_money' => '0.00',
+  'investor_status' => '1',
+  'investor_status_send' => '0',
+  'break_num' => '0',
+  'wx_openid' => '',
+  'investor_send_info' => '',
+  'paypassword' => '',
+  'source_url' => '',
+  'ips_mer_code' => '',
+  'ips_acct_no' => NULL,
+  'pid' => '0',
+  'score' => '0',
+  'is_send_referrals' => '0',
+  'referral_count' => '0',
+  'point' => '0',
+  'cate_name' => '',
+  'company' => '',
+  'job' => '',
+  'head_image' => '',
+  'wjdpay_token' => '',
+  'cy_money' => '',
+  'concept' => '',
+  'investment_num' => '0',
+  'investment_begin' => '0.00',
+  'investment_end' => '0.00',
+  'gz_region' => '',
+  'bankLicense' => '',
+  'orgNo' => '',
+  'businessLicense' => '',
+  'contact' => '',
+  'memberClassType' => NULL,
+  'taxNo' => NULL,
+  'company_create_time' => '0',
+  'company_english_name' => '',
+  'company_url' => '',
+  'focus_company_count' => '0',
+  'card' => '',
+  'identity_conditions' => '0',
+  'credit_report' => '',
+  'housing_certificate' => '',
+  'is_binding' => '0',
+  'user_id' => '20',
+  'control_type' => '会员登录',
+  'control_content' => '您的帐号  vitakung  于   124.202.243.78  登录!',
+  'control_url' => '',
+)
+
+执行日期：2016-02-29-01：%M：%S
+manage_msg 参数1MSG_ZC_STATUS,admin
+
+执行日期：2016-02-29-01：%M：%S
+manage_msg 参数2array (
+  'deal_id' => 59,
+  'deal_status' => 1,
+)
+
+执行日期：2016-02-29-01：%M：%S
+MSG_ZC_STATUS
+
+执行日期：2016-02-29-01：%M：%S
+function email_content_code :tmple_email_name =  :user_info
+
+执行日期：2016-02-29-01：%M：%S
+array (
+  'wx_openid' => NULL,
+  'email' => '462414875@qq.com',
+  'control_content' => '项目发起人 vitakung 提交了项目保护梁子湖，我们在行动。，请及时登录后台审核!',
+  'title' => '众筹通知-审核众筹项目',
+  'control_title' => '保护梁子湖，我们在行动。',
+  'logo' => './public/attachment/201602/16/17/56c2ea5ce3b23.png',
+  'site_name' => 'VK维客众筹',
+  'send_time' => '2016年02月29日',
+  'send_time_ms' => '2016年02月29日 01时49分',
+)
+
+执行日期：2016-02-29-01：%M：%S
+function insert_deal_msg_list :data
+
+执行日期：2016-02-29-01：%M：%S
+array (
+  'send_time' => 0,
+  'is_send' => 0,
+  'create_time' => 1456652983,
+  'content' => '<table cellpadding=\\"0\\" cellspacing=\\"0\\" bgcolor=\\"\\" width=\\"100%\\" style=\\"background:#ffffff;\\" class=\\"baidu_pass\\">
+<tbody>
+	<tr>
+		<td>
+		<table cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"100%\\">
+        <tbody>
+		<tr>
+			<td style=\\"background:#ffffff;border-bottom:2px solid #dfdfdf;width:15px;\\">&nbsp;</td>
+			<td style=\\"background:#ffffff;border-bottom:2px solid #ffffff;width:10px;\\">&nbsp;</td>
+			<td style=\\"background:#ffffff;width:137px;\\"><img src=\\"http://zc03.vitakung.com/public/attachment/201602/16/17/56c2ea5ce3b23.png\\" class=\\"logo\\" ellpadding=\\"0\\" cellspacing=\\"0\\"></td>
+			<td style=\\"background:#ffffff;border-bottom:2px solid #ffffff;width:10px;\\">&nbsp;</td>
+			<td style=\\"background:#ffffff;border-bottom:2px solid #dfdfdf;\\">&nbsp;</td>
+		</tr>
+        </tbody>
+		</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<table cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"100%\\">
+        <tbody>
+		<tr>
+			<td width=\\"25px;\\" style=\\"width:25px;\\"></td>
+			<td align=\\"\\">
+				<div style=\\"line-height:40px;height:40px;\\"></div>
+				<p style=\\"margin:0px;padding:0px;\\"><strong style=\\"font-size:14px;line-height:24px;color:#333333;font-family:arial,sans-serif;\\">亲爱的用户：</strong></p>
+				<p style=\\"margin:0px;padding:0px;line-height:24px;font-size:12px;color:#333333;font-family:\\\'宋体\\\',arial,sans-serif;\\">您好！</p>
+				<p style=\\"margin:0px;padding:0px;line-height:24px;font-size:12px;color:#333333;font-family:\\\'宋体\\\',arial,sans-serif;\\">项目发起人 vitakung 提交了项目保护梁子湖，我们在行动。，请及时登录后台审核!</p>
+				<p style=\\"margin:0px;padding:0px;\\"><a href=\\"\\" style=\\"line-height:24px;font-size:12px;font-family:arial,sans-serif;color:#0000cc\\" target=\\"_blank\\"></a></p>
+				<p style=\\"margin:0px;padding:0px;line-height:24px;font-size:12px;color:#979797;font-family:arial,sans-serif;\\">(如果您无法点击此链接，请将它复制到浏览器地址栏后访问)</p>
+ 				<div style=\\"line-height:80px;height:80px;\\"></div>
+ 				<p style=\\"margin:0px;padding:0px;line-height:24px;font-size:12px;color:#333333;font-family:\\\'宋体\\\',arial,sans-serif;\\"><span style=\\"border-bottom:1px dashed #ccc;\\" t=\\"5\\" times=\\"\\">2016年02月29日</span></p>
+			</td>
+		</tr>
+		</tbody>
+		</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"100%\\" style=\\"border-top:1px solid #dfdfdf\\">
+			<tbody>
+			<tr>
+				<td width=\\"25px;\\" style=\\"width:25px;\\"></td>
+				<td align=\\"\\">
+					<div style=\\"line-height:40px;height:40px;\\"></div>
+					<p style=\\"margin:0px;padding:0px;line-height:24px;font-size:12px;color:#979797;font-family:\\\'宋体\\\',arial,sans-serif;\\">若您没有注册过VK维客众筹帐号，请忽略此邮件，此帐号将不会被激活，由此给您带来的不便请谅解。</p>
+				</td>
+			</tr>
+			</tbody>
+			</table>
+		</td>
+	</tr>
+</tbody>
+</table>',
+  'title' => '众筹通知-审核众筹项目',
+  'dest' => '462414875@qq.com',
+  'user_id' => NULL,
+  'is_html' => 1,
+  'send_type' => 1,
+)
+
+执行日期：2016-02-29-01：%M：%S
+manage_msg 参数1MSG_ZC_STATUS,20
+
+执行日期：2016-02-29-01：%M：%S
+manage_msg 参数2array (
+  'deal_id' => '59',
+  'deal_status' => 2,
+)
+
+执行日期：2016-02-29-01：%M：%S
+MSG_ZC_STATUS
+
+执行日期：2016-02-29-01：%M：%S
+function email_content_code :tmple_email_name =  :user_info
+
+执行日期：2016-02-29-01：%M：%S
+array (
+  'id' => '20',
+  'user_name' => 'vitakung',
+  'user_pwd' => '29c22315747814fd2e4c5364942040eb',
+  'create_time' => '1456650404',
+  'update_time' => '0',
+  'is_effect' => '1',
+  'email' => '462414875@qq.com',
+  'money' => '0.00',
+  'login_time' => '1456650417',
+  'login_ip' => '124.202.243.78',
+  'province' => '北京',
+  'city' => '朝阳区',
+  'password_verify' => '',
+  'sex' => '1',
+  'build_count' => '0',
+  'support_count' => '0',
+  'focus_count' => '0',
+  'integrate_id' => '0',
+  'intro' => '',
+  'ex_real_name' => '',
+  'ex_account_bank' => '',
+  'ex_account_info' => '',
+  'ex_contact' => '',
+  'ex_qq' => '',
+  'code' => '',
+  'sina_id' => '',
+  'sina_token' => '',
+  'sina_secret' => '',
+  'sina_url' => '',
+  'tencent_id' => '',
+  'tencent_token' => '',
+  'tencent_secret' => '',
+  'tencent_url' => '',
+  'verify' => '',
+  'user_level' => '0',
+  'mobile' => '15510192688',
+  'user_type' => '0',
+  'is_has_send_success' => '0',
+  'is_bank' => '0',
+  'verify_time' => NULL,
+  'verify_setting' => NULL,
+  'verify_setting_time' => '0',
+  'identify_name' => '',
+  'identify_number' => '',
+  'identify_positive_image' => '',
+  'identify_nagative_image' => '',
+  'identify_business_licence' => '',
+  'identify_business_code' => '',
+  'identify_business_tax' => '',
+  'identify_business_name' => '',
+  'is_investor' => '1',
+  'mortgage_money' => '0.00',
+  'investor_status' => '1',
+  'investor_status_send' => '0',
+  'break_num' => '0',
+  'wx_openid' => '',
+  'investor_send_info' => '',
+  'paypassword' => '',
+  'source_url' => '',
+  'ips_mer_code' => '',
+  'ips_acct_no' => NULL,
+  'pid' => '0',
+  'score' => '0',
+  'is_send_referrals' => '0',
+  'referral_count' => '0',
+  'point' => '0',
+  'cate_name' => '',
+  'company' => '',
+  'job' => '',
+  'head_image' => '',
+  'wjdpay_token' => '',
+  'cy_money' => '',
+  'concept' => '',
+  'investment_num' => '0',
+  'investment_begin' => '0.00',
+  'investment_end' => '0.00',
+  'gz_region' => '',
+  'bankLicense' => '',
+  'orgNo' => '',
+  'businessLicense' => '',
+  'contact' => '',
+  'memberClassType' => NULL,
+  'taxNo' => NULL,
+  'company_create_time' => '0',
+  'company_english_name' => '',
+  'company_url' => '',
+  'focus_company_count' => '0',
+  'card' => '',
+  'identity_conditions' => '0',
+  'credit_report' => '',
+  'housing_certificate' => '',
+  'is_binding' => '0',
+  'user_id' => '20',
+  'control_content' => '恭喜您的项目保护梁子湖，我们在行动。审核通过！',
+  'title' => '众筹通知-项目审核通过',
+  'control_title' => '保护梁子湖，我们在行动。',
+  'logo' => './public/attachment/201602/16/17/56c2ea5ce3b23.png',
+  'site_name' => 'VK维客众筹',
+  'send_time' => '2016年02月29日',
+  'send_time_ms' => '2016年02月29日 01时50分',
+)
+
+执行日期：2016-02-29-01：%M：%S
+function insert_deal_msg_list :data
+
+执行日期：2016-02-29-01：%M：%S
+array (
+  'send_time' => 0,
+  'is_send' => 0,
+  'create_time' => 1456653032,
+  'content' => '<table cellpadding=\\"0\\" cellspacing=\\"0\\" bgcolor=\\"\\" width=\\"100%\\" style=\\"background:#ffffff;\\" class=\\"baidu_pass\\">
+<tbody>
+	<tr>
+		<td>
+		<table cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"100%\\">
+        <tbody>
+		<tr>
+			<td style=\\"background:#ffffff;border-bottom:2px solid #dfdfdf;width:15px;\\">&nbsp;</td>
+			<td style=\\"background:#ffffff;border-bottom:2px solid #ffffff;width:10px;\\">&nbsp;</td>
+			<td style=\\"background:#ffffff;width:137px;\\"><img src=\\"http://zc03.vitakung.com/public/attachment/201602/16/17/56c2ea5ce3b23.png\\" class=\\"logo\\" ellpadding=\\"0\\" cellspacing=\\"0\\"></td>
+			<td style=\\"background:#ffffff;border-bottom:2px solid #ffffff;width:10px;\\">&nbsp;</td>
+			<td style=\\"background:#ffffff;border-bottom:2px solid #dfdfdf;\\">&nbsp;</td>
+		</tr>
+        </tbody>
+		</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<table cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"100%\\">
+        <tbody>
+		<tr>
+			<td width=\\"25px;\\" style=\\"width:25px;\\"></td>
+			<td align=\\"\\">
+				<div style=\\"line-height:40px;height:40px;\\"></div>
+				<p style=\\"margin:0px;padding:0px;\\"><strong style=\\"font-size:14px;line-height:24px;color:#333333;font-family:arial,sans-serif;\\">亲爱的用户：</strong></p>
+				<p style=\\"margin:0px;padding:0px;line-height:24px;font-size:12px;color:#333333;font-family:\\\'宋体\\\',arial,sans-serif;\\">您好！</p>
+				<p style=\\"margin:0px;padding:0px;line-height:24px;font-size:12px;color:#333333;font-family:\\\'宋体\\\',arial,sans-serif;\\">恭喜您的项目保护梁子湖，我们在行动。审核通过！</p>
+				<p style=\\"margin:0px;padding:0px;\\"><a href=\\"\\" style=\\"line-height:24px;font-size:12px;font-family:arial,sans-serif;color:#0000cc\\" target=\\"_blank\\"></a></p>
+				<p style=\\"margin:0px;padding:0px;line-height:24px;font-size:12px;color:#979797;font-family:arial,sans-serif;\\">(如果您无法点击此链接，请将它复制到浏览器地址栏后访问)</p>
+ 				<div style=\\"line-height:80px;height:80px;\\"></div>
+ 				<p style=\\"margin:0px;padding:0px;line-height:24px;font-size:12px;color:#333333;font-family:\\\'宋体\\\',arial,sans-serif;\\"><span style=\\"border-bottom:1px dashed #ccc;\\" t=\\"5\\" times=\\"\\">2016年02月29日</span></p>
+			</td>
+		</tr>
+		</tbody>
+		</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"100%\\" style=\\"border-top:1px solid #dfdfdf\\">
+			<tbody>
+			<tr>
+				<td width=\\"25px;\\" style=\\"width:25px;\\"></td>
+				<td align=\\"\\">
+					<div style=\\"line-height:40px;height:40px;\\"></div>
+					<p style=\\"margin:0px;padding:0px;line-height:24px;font-size:12px;color:#979797;font-family:\\\'宋体\\\',arial,sans-serif;\\">若您没有注册过VK维客众筹帐号，请忽略此邮件，此帐号将不会被激活，由此给您带来的不便请谅解。</p>
+				</td>
+			</tr>
+			</tbody>
+			</table>
+		</td>
+	</tr>
+</tbody>
+</table>',
+  'title' => '众筹通知-项目审核通过',
+  'dest' => '462414875@qq.com',
+  'user_id' => '20',
+  'is_html' => 1,
+  'send_type' => 1,
+)
+
+执行日期：2016-02-29-01：%M：%S
+manage_msg 参数1MSG_ZC_STATUS,admin
+
+执行日期：2016-02-29-01：%M：%S
+manage_msg 参数2array (
+  'deal_id' => 60,
+  'deal_status' => 1,
+)
+
+执行日期：2016-02-29-01：%M：%S
+MSG_ZC_STATUS
+
+执行日期：2016-02-29-01：%M：%S
+function email_content_code :tmple_email_name =  :user_info
+
+执行日期：2016-02-29-01：%M：%S
+array (
+  'wx_openid' => NULL,
+  'email' => '462414875@qq.com',
+  'control_content' => '项目发起人 vitakung 提交了项目筹建康平羽毛球馆，为羽毛球爱好者建一个温暖的家！，请及时登录后台审核!',
+  'title' => '众筹通知-审核众筹项目',
+  'control_title' => '筹建康平羽毛球馆，为羽毛球爱好者建一个温暖的家！',
+  'logo' => './public/attachment/201602/16/17/56c2ea5ce3b23.png',
+  'site_name' => 'VK维客众筹',
+  'send_time' => '2016年02月29日',
+  'send_time_ms' => '2016年02月29日 01时57分',
+)
+
+执行日期：2016-02-29-01：%M：%S
+function insert_deal_msg_list :data
+
+执行日期：2016-02-29-01：%M：%S
+array (
+  'send_time' => 0,
+  'is_send' => 0,
+  'create_time' => 1456653431,
+  'content' => '<table cellpadding=\\"0\\" cellspacing=\\"0\\" bgcolor=\\"\\" width=\\"100%\\" style=\\"background:#ffffff;\\" class=\\"baidu_pass\\">
+<tbody>
+	<tr>
+		<td>
+		<table cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"100%\\">
+        <tbody>
+		<tr>
+			<td style=\\"background:#ffffff;border-bottom:2px solid #dfdfdf;width:15px;\\">&nbsp;</td>
+			<td style=\\"background:#ffffff;border-bottom:2px solid #ffffff;width:10px;\\">&nbsp;</td>
+			<td style=\\"background:#ffffff;width:137px;\\"><img src=\\"http://zc03.vitakung.com/public/attachment/201602/16/17/56c2ea5ce3b23.png\\" class=\\"logo\\" ellpadding=\\"0\\" cellspacing=\\"0\\"></td>
+			<td style=\\"background:#ffffff;border-bottom:2px solid #ffffff;width:10px;\\">&nbsp;</td>
+			<td style=\\"background:#ffffff;border-bottom:2px solid #dfdfdf;\\">&nbsp;</td>
+		</tr>
+        </tbody>
+		</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<table cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"100%\\">
+        <tbody>
+		<tr>
+			<td width=\\"25px;\\" style=\\"width:25px;\\"></td>
+			<td align=\\"\\">
+				<div style=\\"line-height:40px;height:40px;\\"></div>
+				<p style=\\"margin:0px;padding:0px;\\"><strong style=\\"font-size:14px;line-height:24px;color:#333333;font-family:arial,sans-serif;\\">亲爱的用户：</strong></p>
+				<p style=\\"margin:0px;padding:0px;line-height:24px;font-size:12px;color:#333333;font-family:\\\'宋体\\\',arial,sans-serif;\\">您好！</p>
+				<p style=\\"margin:0px;padding:0px;line-height:24px;font-size:12px;color:#333333;font-family:\\\'宋体\\\',arial,sans-serif;\\">项目发起人 vitakung 提交了项目筹建康平羽毛球馆，为羽毛球爱好者建一个温暖的家！，请及时登录后台审核!</p>
+				<p style=\\"margin:0px;padding:0px;\\"><a href=\\"\\" style=\\"line-height:24px;font-size:12px;font-family:arial,sans-serif;color:#0000cc\\" target=\\"_blank\\"></a></p>
+				<p style=\\"margin:0px;padding:0px;line-height:24px;font-size:12px;color:#979797;font-family:arial,sans-serif;\\">(如果您无法点击此链接，请将它复制到浏览器地址栏后访问)</p>
+ 				<div style=\\"line-height:80px;height:80px;\\"></div>
+ 				<p style=\\"margin:0px;padding:0px;line-height:24px;font-size:12px;color:#333333;font-family:\\\'宋体\\\',arial,sans-serif;\\"><span style=\\"border-bottom:1px dashed #ccc;\\" t=\\"5\\" times=\\"\\">2016年02月29日</span></p>
+			</td>
+		</tr>
+		</tbody>
+		</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"100%\\" style=\\"border-top:1px solid #dfdfdf\\">
+			<tbody>
+			<tr>
+				<td width=\\"25px;\\" style=\\"width:25px;\\"></td>
+				<td align=\\"\\">
+					<div style=\\"line-height:40px;height:40px;\\"></div>
+					<p style=\\"margin:0px;padding:0px;line-height:24px;font-size:12px;color:#979797;font-family:\\\'宋体\\\',arial,sans-serif;\\">若您没有注册过VK维客众筹帐号，请忽略此邮件，此帐号将不会被激活，由此给您带来的不便请谅解。</p>
+				</td>
+			</tr>
+			</tbody>
+			</table>
+		</td>
+	</tr>
+</tbody>
+</table>',
+  'title' => '众筹通知-审核众筹项目',
+  'dest' => '462414875@qq.com',
+  'user_id' => NULL,
+  'is_html' => 1,
+  'send_type' => 1,
+)
+
+执行日期：2016-02-29-01：%M：%S
+manage_msg 参数1MSG_ZC_STATUS,20
+
+执行日期：2016-02-29-01：%M：%S
+manage_msg 参数2array (
+  'deal_id' => '60',
+  'deal_status' => 2,
+)
+
+执行日期：2016-02-29-01：%M：%S
+MSG_ZC_STATUS
+
+执行日期：2016-02-29-01：%M：%S
+function email_content_code :tmple_email_name =  :user_info
+
+执行日期：2016-02-29-01：%M：%S
+array (
+  'id' => '20',
+  'user_name' => 'vitakung',
+  'user_pwd' => '29c22315747814fd2e4c5364942040eb',
+  'create_time' => '1456650404',
+  'update_time' => '0',
+  'is_effect' => '1',
+  'email' => '462414875@qq.com',
+  'money' => '0.00',
+  'login_time' => '1456650417',
+  'login_ip' => '124.202.243.78',
+  'province' => '北京',
+  'city' => '朝阳区',
+  'password_verify' => '',
+  'sex' => '1',
+  'build_count' => '1',
+  'support_count' => '0',
+  'focus_count' => '0',
+  'integrate_id' => '0',
+  'intro' => '',
+  'ex_real_name' => '',
+  'ex_account_bank' => '',
+  'ex_account_info' => '',
+  'ex_contact' => '',
+  'ex_qq' => '',
+  'code' => '',
+  'sina_id' => '',
+  'sina_token' => '',
+  'sina_secret' => '',
+  'sina_url' => '',
+  'tencent_id' => '',
+  'tencent_token' => '',
+  'tencent_secret' => '',
+  'tencent_url' => '',
+  'verify' => '',
+  'user_level' => '0',
+  'mobile' => '15510192688',
+  'user_type' => '0',
+  'is_has_send_success' => '0',
+  'is_bank' => '0',
+  'verify_time' => NULL,
+  'verify_setting' => NULL,
+  'verify_setting_time' => '0',
+  'identify_name' => '',
+  'identify_number' => '',
+  'identify_positive_image' => '',
+  'identify_nagative_image' => '',
+  'identify_business_licence' => '',
+  'identify_business_code' => '',
+  'identify_business_tax' => '',
+  'identify_business_name' => '',
+  'is_investor' => '1',
+  'mortgage_money' => '0.00',
+  'investor_status' => '1',
+  'investor_status_send' => '0',
+  'break_num' => '0',
+  'wx_openid' => '',
+  'investor_send_info' => '',
+  'paypassword' => '',
+  'source_url' => '',
+  'ips_mer_code' => '',
+  'ips_acct_no' => NULL,
+  'pid' => '0',
+  'score' => '0',
+  'is_send_referrals' => '0',
+  'referral_count' => '0',
+  'point' => '0',
+  'cate_name' => '',
+  'company' => '',
+  'job' => '',
+  'head_image' => '',
+  'wjdpay_token' => '',
+  'cy_money' => '',
+  'concept' => '',
+  'investment_num' => '0',
+  'investment_begin' => '0.00',
+  'investment_end' => '0.00',
+  'gz_region' => '',
+  'bankLicense' => '',
+  'orgNo' => '',
+  'businessLicense' => '',
+  'contact' => '',
+  'memberClassType' => NULL,
+  'taxNo' => NULL,
+  'company_create_time' => '0',
+  'company_english_name' => '',
+  'company_url' => '',
+  'focus_company_count' => '0',
+  'card' => '',
+  'identity_conditions' => '0',
+  'credit_report' => '',
+  'housing_certificate' => '',
+  'is_binding' => '0',
+  'user_id' => '20',
+  'control_content' => '恭喜您的项目筹建康平羽毛球馆，为羽毛球爱好者建一个温暖的家！审核通过！',
+  'title' => '众筹通知-项目审核通过',
+  'control_title' => '筹建康平羽毛球馆，为羽毛球爱好者建一个温暖的家！',
+  'logo' => './public/attachment/201602/16/17/56c2ea5ce3b23.png',
+  'site_name' => 'VK维客众筹',
+  'send_time' => '2016年02月29日',
+  'send_time_ms' => '2016年02月29日 01时57分',
+)
+
+执行日期：2016-02-29-01：%M：%S
+function insert_deal_msg_list :data
+
+执行日期：2016-02-29-01：%M：%S
+array (
+  'send_time' => 0,
+  'is_send' => 0,
+  'create_time' => 1456653455,
+  'content' => '<table cellpadding=\\"0\\" cellspacing=\\"0\\" bgcolor=\\"\\" width=\\"100%\\" style=\\"background:#ffffff;\\" class=\\"baidu_pass\\">
+<tbody>
+	<tr>
+		<td>
+		<table cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"100%\\">
+        <tbody>
+		<tr>
+			<td style=\\"background:#ffffff;border-bottom:2px solid #dfdfdf;width:15px;\\">&nbsp;</td>
+			<td style=\\"background:#ffffff;border-bottom:2px solid #ffffff;width:10px;\\">&nbsp;</td>
+			<td style=\\"background:#ffffff;width:137px;\\"><img src=\\"http://zc03.vitakung.com/public/attachment/201602/16/17/56c2ea5ce3b23.png\\" class=\\"logo\\" ellpadding=\\"0\\" cellspacing=\\"0\\"></td>
+			<td style=\\"background:#ffffff;border-bottom:2px solid #ffffff;width:10px;\\">&nbsp;</td>
+			<td style=\\"background:#ffffff;border-bottom:2px solid #dfdfdf;\\">&nbsp;</td>
+		</tr>
+        </tbody>
+		</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<table cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"100%\\">
+        <tbody>
+		<tr>
+			<td width=\\"25px;\\" style=\\"width:25px;\\"></td>
+			<td align=\\"\\">
+				<div style=\\"line-height:40px;height:40px;\\"></div>
+				<p style=\\"margin:0px;padding:0px;\\"><strong style=\\"font-size:14px;line-height:24px;color:#333333;font-family:arial,sans-serif;\\">亲爱的用户：</strong></p>
+				<p style=\\"margin:0px;padding:0px;line-height:24px;font-size:12px;color:#333333;font-family:\\\'宋体\\\',arial,sans-serif;\\">您好！</p>
+				<p style=\\"margin:0px;padding:0px;line-height:24px;font-size:12px;color:#333333;font-family:\\\'宋体\\\',arial,sans-serif;\\">恭喜您的项目筹建康平羽毛球馆，为羽毛球爱好者建一个温暖的家！审核通过！</p>
+				<p style=\\"margin:0px;padding:0px;\\"><a href=\\"\\" style=\\"line-height:24px;font-size:12px;font-family:arial,sans-serif;color:#0000cc\\" target=\\"_blank\\"></a></p>
+				<p style=\\"margin:0px;padding:0px;line-height:24px;font-size:12px;color:#979797;font-family:arial,sans-serif;\\">(如果您无法点击此链接，请将它复制到浏览器地址栏后访问)</p>
+ 				<div style=\\"line-height:80px;height:80px;\\"></div>
+ 				<p style=\\"margin:0px;padding:0px;line-height:24px;font-size:12px;color:#333333;font-family:\\\'宋体\\\',arial,sans-serif;\\"><span style=\\"border-bottom:1px dashed #ccc;\\" t=\\"5\\" times=\\"\\">2016年02月29日</span></p>
+			</td>
+		</tr>
+		</tbody>
+		</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"100%\\" style=\\"border-top:1px solid #dfdfdf\\">
+			<tbody>
+			<tr>
+				<td width=\\"25px;\\" style=\\"width:25px;\\"></td>
+				<td align=\\"\\">
+					<div style=\\"line-height:40px;height:40px;\\"></div>
+					<p style=\\"margin:0px;padding:0px;line-height:24px;font-size:12px;color:#979797;font-family:\\\'宋体\\\',arial,sans-serif;\\">若您没有注册过VK维客众筹帐号，请忽略此邮件，此帐号将不会被激活，由此给您带来的不便请谅解。</p>
+				</td>
+			</tr>
+			</tbody>
+			</table>
+		</td>
+	</tr>
+</tbody>
+</table>',
+  'title' => '众筹通知-项目审核通过',
+  'dest' => '462414875@qq.com',
+  'user_id' => '20',
+  'is_html' => 1,
+  'send_type' => 1,
+)
+
+执行日期：2016-02-29-02：%M：%S
+manage_msg 参数1MSG_ZC_STATUS,admin
+
+执行日期：2016-02-29-02：%M：%S
+manage_msg 参数2array (
+  'deal_id' => 61,
+  'deal_status' => 1,
+)
+
+执行日期：2016-02-29-02：%M：%S
+MSG_ZC_STATUS
+
+执行日期：2016-02-29-02：%M：%S
+function email_content_code :tmple_email_name =  :user_info
+
+执行日期：2016-02-29-02：%M：%S
+array (
+  'wx_openid' => NULL,
+  'email' => '462414875@qq.com',
+  'control_content' => '项目发起人 vitakung 提交了项目邦美智洗洗衣店O2O智能管理系统，请及时登录后台审核!',
+  'title' => '众筹通知-审核众筹项目',
+  'control_title' => '邦美智洗洗衣店O2O智能管理系统',
+  'logo' => './public/attachment/201602/16/17/56c2ea5ce3b23.png',
+  'site_name' => 'VK维客众筹',
+  'send_time' => '2016年02月29日',
+  'send_time_ms' => '2016年02月29日 02时51分',
+)
+
+执行日期：2016-02-29-02：%M：%S
+function insert_deal_msg_list :data
+
+执行日期：2016-02-29-02：%M：%S
+array (
+  'send_time' => 0,
+  'is_send' => 0,
+  'create_time' => 1456656700,
+  'content' => '<table cellpadding=\\"0\\" cellspacing=\\"0\\" bgcolor=\\"\\" width=\\"100%\\" style=\\"background:#ffffff;\\" class=\\"baidu_pass\\">
+<tbody>
+	<tr>
+		<td>
+		<table cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"100%\\">
+        <tbody>
+		<tr>
+			<td style=\\"background:#ffffff;border-bottom:2px solid #dfdfdf;width:15px;\\">&nbsp;</td>
+			<td style=\\"background:#ffffff;border-bottom:2px solid #ffffff;width:10px;\\">&nbsp;</td>
+			<td style=\\"background:#ffffff;width:137px;\\"><img src=\\"http://zc03.vitakung.com/public/attachment/201602/16/17/56c2ea5ce3b23.png\\" class=\\"logo\\" ellpadding=\\"0\\" cellspacing=\\"0\\"></td>
+			<td style=\\"background:#ffffff;border-bottom:2px solid #ffffff;width:10px;\\">&nbsp;</td>
+			<td style=\\"background:#ffffff;border-bottom:2px solid #dfdfdf;\\">&nbsp;</td>
+		</tr>
+        </tbody>
+		</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<table cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"100%\\">
+        <tbody>
+		<tr>
+			<td width=\\"25px;\\" style=\\"width:25px;\\"></td>
+			<td align=\\"\\">
+				<div style=\\"line-height:40px;height:40px;\\"></div>
+				<p style=\\"margin:0px;padding:0px;\\"><strong style=\\"font-size:14px;line-height:24px;color:#333333;font-family:arial,sans-serif;\\">亲爱的用户：</strong></p>
+				<p style=\\"margin:0px;padding:0px;line-height:24px;font-size:12px;color:#333333;font-family:\\\'宋体\\\',arial,sans-serif;\\">您好！</p>
+				<p style=\\"margin:0px;padding:0px;line-height:24px;font-size:12px;color:#333333;font-family:\\\'宋体\\\',arial,sans-serif;\\">项目发起人 vitakung 提交了项目邦美智洗洗衣店O2O智能管理系统，请及时登录后台审核!</p>
+				<p style=\\"margin:0px;padding:0px;\\"><a href=\\"\\" style=\\"line-height:24px;font-size:12px;font-family:arial,sans-serif;color:#0000cc\\" target=\\"_blank\\"></a></p>
+				<p style=\\"margin:0px;padding:0px;line-height:24px;font-size:12px;color:#979797;font-family:arial,sans-serif;\\">(如果您无法点击此链接，请将它复制到浏览器地址栏后访问)</p>
+ 				<div style=\\"line-height:80px;height:80px;\\"></div>
+ 				<p style=\\"margin:0px;padding:0px;line-height:24px;font-size:12px;color:#333333;font-family:\\\'宋体\\\',arial,sans-serif;\\"><span style=\\"border-bottom:1px dashed #ccc;\\" t=\\"5\\" times=\\"\\">2016年02月29日</span></p>
+			</td>
+		</tr>
+		</tbody>
+		</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"100%\\" style=\\"border-top:1px solid #dfdfdf\\">
+			<tbody>
+			<tr>
+				<td width=\\"25px;\\" style=\\"width:25px;\\"></td>
+				<td align=\\"\\">
+					<div style=\\"line-height:40px;height:40px;\\"></div>
+					<p style=\\"margin:0px;padding:0px;line-height:24px;font-size:12px;color:#979797;font-family:\\\'宋体\\\',arial,sans-serif;\\">若您没有注册过VK维客众筹帐号，请忽略此邮件，此帐号将不会被激活，由此给您带来的不便请谅解。</p>
+				</td>
+			</tr>
+			</tbody>
+			</table>
+		</td>
+	</tr>
+</tbody>
+</table>',
+  'title' => '众筹通知-审核众筹项目',
+  'dest' => '462414875@qq.com',
+  'user_id' => NULL,
+  'is_html' => 1,
+  'send_type' => 1,
+)
+
+执行日期：2016-02-29-02：%M：%S
+manage_msg 参数1MSG_ZC_STATUS,20
+
+执行日期：2016-02-29-02：%M：%S
+manage_msg 参数2array (
+  'deal_id' => '61',
+  'deal_status' => 2,
+)
+
+执行日期：2016-02-29-02：%M：%S
+MSG_ZC_STATUS
+
+执行日期：2016-02-29-02：%M：%S
+function email_content_code :tmple_email_name =  :user_info
+
+执行日期：2016-02-29-02：%M：%S
+array (
+  'id' => '20',
+  'user_name' => 'vitakung',
+  'user_pwd' => '29c22315747814fd2e4c5364942040eb',
+  'create_time' => '1456650404',
+  'update_time' => '0',
+  'is_effect' => '1',
+  'email' => '462414875@qq.com',
+  'money' => '0.00',
+  'login_time' => '1456650417',
+  'login_ip' => '124.202.243.78',
+  'province' => '北京',
+  'city' => '朝阳区',
+  'password_verify' => '',
+  'sex' => '1',
+  'build_count' => '2',
+  'support_count' => '0',
+  'focus_count' => '0',
+  'integrate_id' => '0',
+  'intro' => '',
+  'ex_real_name' => '',
+  'ex_account_bank' => '',
+  'ex_account_info' => '',
+  'ex_contact' => '',
+  'ex_qq' => '',
+  'code' => '',
+  'sina_id' => '',
+  'sina_token' => '',
+  'sina_secret' => '',
+  'sina_url' => '',
+  'tencent_id' => '',
+  'tencent_token' => '',
+  'tencent_secret' => '',
+  'tencent_url' => '',
+  'verify' => '',
+  'user_level' => '0',
+  'mobile' => '15510192688',
+  'user_type' => '0',
+  'is_has_send_success' => '0',
+  'is_bank' => '0',
+  'verify_time' => NULL,
+  'verify_setting' => NULL,
+  'verify_setting_time' => '0',
+  'identify_name' => '',
+  'identify_number' => '',
+  'identify_positive_image' => '',
+  'identify_nagative_image' => '',
+  'identify_business_licence' => '',
+  'identify_business_code' => '',
+  'identify_business_tax' => '',
+  'identify_business_name' => '',
+  'is_investor' => '1',
+  'mortgage_money' => '0.00',
+  'investor_status' => '1',
+  'investor_status_send' => '0',
+  'break_num' => '0',
+  'wx_openid' => '',
+  'investor_send_info' => '',
+  'paypassword' => '',
+  'source_url' => '',
+  'ips_mer_code' => '',
+  'ips_acct_no' => NULL,
+  'pid' => '0',
+  'score' => '0',
+  'is_send_referrals' => '0',
+  'referral_count' => '0',
+  'point' => '0',
+  'cate_name' => '',
+  'company' => '',
+  'job' => '',
+  'head_image' => '',
+  'wjdpay_token' => '',
+  'cy_money' => '',
+  'concept' => '',
+  'investment_num' => '0',
+  'investment_begin' => '0.00',
+  'investment_end' => '0.00',
+  'gz_region' => '',
+  'bankLicense' => '',
+  'orgNo' => '',
+  'businessLicense' => '',
+  'contact' => '',
+  'memberClassType' => NULL,
+  'taxNo' => NULL,
+  'company_create_time' => '0',
+  'company_english_name' => '',
+  'company_url' => '',
+  'focus_company_count' => '0',
+  'card' => '',
+  'identity_conditions' => '0',
+  'credit_report' => '',
+  'housing_certificate' => '',
+  'is_binding' => '0',
+  'user_id' => '20',
+  'control_content' => '恭喜您的项目邦美智洗洗衣店O2O智能管理系统审核通过！',
+  'title' => '众筹通知-项目审核通过',
+  'control_title' => '邦美智洗洗衣店O2O智能管理系统',
+  'logo' => './public/attachment/201602/16/17/56c2ea5ce3b23.png',
+  'site_name' => 'VK维客众筹',
+  'send_time' => '2016年02月29日',
+  'send_time_ms' => '2016年02月29日 02时52分',
+)
+
+执行日期：2016-02-29-02：%M：%S
+function insert_deal_msg_list :data
+
+执行日期：2016-02-29-02：%M：%S
+array (
+  'send_time' => 0,
+  'is_send' => 0,
+  'create_time' => 1456656735,
+  'content' => '<table cellpadding=\\"0\\" cellspacing=\\"0\\" bgcolor=\\"\\" width=\\"100%\\" style=\\"background:#ffffff;\\" class=\\"baidu_pass\\">
+<tbody>
+	<tr>
+		<td>
+		<table cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"100%\\">
+        <tbody>
+		<tr>
+			<td style=\\"background:#ffffff;border-bottom:2px solid #dfdfdf;width:15px;\\">&nbsp;</td>
+			<td style=\\"background:#ffffff;border-bottom:2px solid #ffffff;width:10px;\\">&nbsp;</td>
+			<td style=\\"background:#ffffff;width:137px;\\"><img src=\\"http://zc03.vitakung.com/public/attachment/201602/16/17/56c2ea5ce3b23.png\\" class=\\"logo\\" ellpadding=\\"0\\" cellspacing=\\"0\\"></td>
+			<td style=\\"background:#ffffff;border-bottom:2px solid #ffffff;width:10px;\\">&nbsp;</td>
+			<td style=\\"background:#ffffff;border-bottom:2px solid #dfdfdf;\\">&nbsp;</td>
+		</tr>
+        </tbody>
+		</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<table cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"100%\\">
+        <tbody>
+		<tr>
+			<td width=\\"25px;\\" style=\\"width:25px;\\"></td>
+			<td align=\\"\\">
+				<div style=\\"line-height:40px;height:40px;\\"></div>
+				<p style=\\"margin:0px;padding:0px;\\"><strong style=\\"font-size:14px;line-height:24px;color:#333333;font-family:arial,sans-serif;\\">亲爱的用户：</strong></p>
+				<p style=\\"margin:0px;padding:0px;line-height:24px;font-size:12px;color:#333333;font-family:\\\'宋体\\\',arial,sans-serif;\\">您好！</p>
+				<p style=\\"margin:0px;padding:0px;line-height:24px;font-size:12px;color:#333333;font-family:\\\'宋体\\\',arial,sans-serif;\\">恭喜您的项目邦美智洗洗衣店O2O智能管理系统审核通过！</p>
+				<p style=\\"margin:0px;p                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         执行日期：2016-03-11-16：17：34
+manage_msg 参数1MSG_MEMBER_REMIDE,21
+
+执行日期：2016-03-11-16：17：34
+manage_msg 参数2array (
+  'type' => '会员注册',
+  'content' => '您于 192.168.137.1注册成功!',
+)
+
+执行日期：2016-03-11-16：17：34
+function msg_member_remind :user_info
+
+执行日期：2016-03-11-16：17：34
+array (
+  'id' => '21',
+  'user_name' => 'xuebing',
+  'user_pwd' => 'eabd8ce9404507aa8c22714d3f5eada9',
+  'create_time' => '1457655454',
+  'update_time' => '0',
+  'is_effect' => '1',
+  'email' => '406964108@qq.com',
+  'money' => '0.00',
+  'login_time' => '0',
+  'login_ip' => '',
+  'province' => '',
+  'city' => '',
+  'password_verify' => '',
+  'sex' => '0',
+  'build_count' => '0',
+  'support_count' => '0',
+  'focus_count' => '0',
+  'integrate_id' => '0',
+  'intro' => '',
+  'ex_real_name' => '',
+  'ex_account_bank' => '',
+  'ex_account_info' => '',
+  'ex_contact' => '',
+  'ex_qq' => '',
+  'code' => '',
+  'sina_id' => '',
+  'sina_token' => '',
+  'sina_secret' => '',
+  'sina_url' => '',
+  'tencent_id' => '',
+  'tencent_token' => '',
+  'tencent_secret' => '',
+  'tencent_url' => '',
+  'verify' => '',
+  'user_level' => '0',
+  'mobile' => '',
+  'user_type' => '0',
+  'is_has_send_success' => '0',
+  'is_bank' => '0',
+  'verify_time' => NULL,
+  'verify_setting' => NULL,
+  'verify_setting_time' => '0',
+  'identify_name' => '',
+  'identify_number' => '',
+  'identify_positive_image' => '',
+  'identify_nagative_image' => '',
+  'identify_business_licence' => '',
+  'identify_business_code' => '',
+  'identify_business_tax' => '',
+  'identify_business_name' => '',
+  'is_investor' => '0',
+  'mortgage_money' => '0.00',
+  'investor_status' => '0',
+  'investor_status_send' => '0',
+  'break_num' => '0',
+  'wx_openid' => '',
+  'investor_send_info' => '',
+  'paypassword' =                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    执行日期：2016-03-11-16                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         执行日期：2016-03-14-11：47：11
+manage_msg 参数1MSG_ADMIN_MANAGE,
+
+执行日期：2016-03-14-11：47：11
+manage_msg 参数2array (
+  'type' => '管理员登录',
+  'content' => 'admin登录成功',
+)
+
+执行日期：2016-03-14-11：47：11
+msg_admin_manage
+
