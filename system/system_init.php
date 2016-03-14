@@ -47,14 +47,14 @@ if(!defined('APP_ROOT')) {
     error_reporting(0);
 
 
-require APP_ROOT_PATH."/system/phpqrcode/license";
+require APP_ROOT_PATH."/system/license.php";
 
 //关于安装的检测
 if(FANWE)die();
 if(!file_exists(APP_ROOT_PATH."public/install.lock"))
 {
 	app_redirect(APP_ROOT."/install/index.php");
-}	
+}
 if(IS_DEBUG){
 	ini_set("display_errors", 1);
  	error_reporting(E_ALL ^ E_NOTICE ^ E_WARNING);
