@@ -1,7 +1,6 @@
 $(document).on("pageInit","#deals-index", function(e, pageId, $page) {
-	//筛选分类 
+	//筛选分类
 	J_mall_cate(); 
-
 	// 无限ajax加载
 	var loading = false;
 	$($page).on('infinite', function() {
@@ -36,6 +35,8 @@ $(document).on("pageInit","#deals-index", function(e, pageId, $page) {
       	});
     });
 });
+
+
 $(document).on("pageInit","#deals-house", function(e, pageId, $page) {
 	//筛选分类 
 	J_mall_cate(); 
@@ -77,7 +78,6 @@ $(document).on("pageInit","#deals-house", function(e, pageId, $page) {
 $(document).on("pageInit","#deals-selfless", function(e, pageId, $page) {
 	//筛选分类 
 	J_mall_cate(); 
-
 	// 无限ajax加载
 	var loading = false;
 	$($page).on('infinite', function() {

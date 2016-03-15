@@ -4,7 +4,11 @@
     $this->_var['dpagecss'][] = $this->_var['TMPL_REAL']."/css/dz_index.css";
 ?>
 <link rel="stylesheet" type="text/css" href="{function name="parse_css" v="$dpagecss"}" />
+{if !isset($_GET['type']) }
+<input type="hidden" class="pull_to_refresh_url" value="{url_wap r="deals#index"}&type=<?= $_GET['type'] ?>" />
+{else}
 <input type="hidden" class="pull_to_refresh_url" value="{url_wap r="deals#index"}" />
+{/if}
 <!-- 默认的下拉刷新层 -->
 <div class="pull-to-refresh-layer">
     <div class="preloader"></div>
