@@ -35,12 +35,12 @@ $this->_var['dcpagejs'][] = $this->_var['TMPL_REAL']."/js/fanwe_utils/jquery.Sup
 		<a class="next" href="javascript:void(0)"></a>
 	</div>
 </div>
-<script type="text/javascript"> 
-	if(!$(".banner_cont ul").has('li').length){ 
+<script type="text/javascript">
+	if(!$(".banner_cont ul").has('li').length){
 		$("#banner").css("display","none");
-	} 
-	
-	if($(".banner_cont ul").find('li').length==1){ 
+	}
+
+	if($(".banner_cont ul").find('li').length==1){
 		$(".btn_tit").css("display","none");
 	}
 	else if($(".banner_cont ul").find('li').length>1){
@@ -202,16 +202,16 @@ $this->_var['dcpagejs'][] = $this->_var['TMPL_REAL']."/js/fanwe_utils/jquery.Sup
 			</h3>
 			<div id="pin_box">
 			 	{if app_conf('INVEST_STATUS') eq 0 || app_conf('INVEST_STATUS') eq 1 }
-			 		{include file="inc/deal_list_index_new_pro.html"} 
+			 		{include file="inc/deal_list_index_new_pro.html"}
 			 	{else}
-				 	{include file="inc/deal_list_index_new_invest.html"} 
+				 	{include file="inc/deal_list_index_new_invest.html"}
 			 	{/if}
 			</div>
 		</div>
 	 </div>
 	 {/if}
 	<!-- 最新创意 结束 -->
-	
+
 	<!-- 最新房产 开始 -->
 	{if $deal_new_list_2}
 	<div class="blank10"></div>
@@ -228,7 +228,7 @@ $this->_var['dcpagejs'][] = $this->_var['TMPL_REAL']."/js/fanwe_utils/jquery.Sup
 		</div>
 	 </div>
 	{/if}
-	 
+
 	<!-- 最新公益 开始 -->
 	{if $deal_new_list_3}
 	<div class="blank10"></div>
@@ -245,7 +245,7 @@ $this->_var['dcpagejs'][] = $this->_var['TMPL_REAL']."/js/fanwe_utils/jquery.Sup
 		</div>
 	 </div>
 	{/if}
-	
+
 	<!-- 最新融资 开始 -->
 	{if $deal_new_list_4}
 	<div class="blank10"></div>
@@ -320,7 +320,7 @@ $this->_var['dcpagejs'][] = $this->_var['TMPL_REAL']."/js/fanwe_utils/jquery.Sup
 				                <div class="mask_bg"></div>
 				            </div>
  			            {/if}
-			           
+
 						<div class="blank0"></div>
 					</div>
 					<div class="project_text">
@@ -381,7 +381,7 @@ $this->_var['dcpagejs'][] = $this->_var['TMPL_REAL']."/js/fanwe_utils/jquery.Sup
                                 <div class="item_detail">
                                     <div class="user_icon">
                                     	<img id="avatar" src="{function name="get_user_avatar" uid=$finance_item.u_id type="middle"}" />
-                                       
+
                                     </div>
                                     <div class="user_event">
                                         <a href="{url r="home#index" p="id=$finance_item.u_id"}">{$finance_item.user_name}</a> 创建了公司
@@ -467,7 +467,7 @@ $this->_var['dcpagejs'][] = $this->_var['TMPL_REAL']."/js/fanwe_utils/jquery.Sup
 	<div class="wrap">
 		<h3 class="index_title tc">人人都是梦想家，开启圆梦之旅！</h3>
 		<div class="index_register_btn tc">
-			<a href="{if $user_info.id gt 0}{url r="referral#index"}{else}{url r="user#register"}{/if}" target="_blank" class="ui_button ui-center-button theme_bgcolor b f20">加入天使团</a>
+			<a href="{if $user_info.id gt 0}{url r="referral#index"}{else}{url r="user#register"}{/if}" target="_blank" class="ui_button ui-center-button theme_bgcolor b f20">加入百合花众筹</a>
 		</div>
 		<div class="blank20"></div>
 		<ul class="reg_users_list">
@@ -517,12 +517,12 @@ $this->_var['dcpagejs'][] = $this->_var['TMPL_REAL']."/js/fanwe_utils/jquery.Sup
 (function(){
 	// 统计数值滚动
 	var options = {
-	    useEasing : true, 
-	    useGrouping : true, 
-	    separator : ',', 
-	    decimal : '.', 
-	    prefix : '', 
-	    suffix : '' 
+	    useEasing : true,
+	    useGrouping : true,
+	    separator : ',',
+	    decimal : '.',
+	    prefix : '',
+	    suffix : ''
 	};
 	var sum_money = new countUp("sum_money", 0, {$virtual_money}, 2, 2.5, options);
 	var sum_success = new countUp("sum_success", 0, {$success_sum}, 0, 2.5, options);
@@ -559,7 +559,7 @@ $this->_var['dcpagejs'][] = $this->_var['TMPL_REAL']."/js/fanwe_utils/jquery.Sup
  	$reg_user_list_li.hover(function(){
 		$obj=$(this);
 		$obj.css({zIndex:"2"});
-		
+
 		$obj.find(".user_img").css("zIndex","101");
  		if($obj.hasClass("left_o")){
  			$obj.prevAll().css("zIndex","3");
@@ -658,4 +658,4 @@ function ajax_get_recommend_project(){
 		},1000);
 	}
 </script>
-{include file="inc/footer.html"} 
+{include file="inc/footer.html"}
