@@ -82,7 +82,8 @@ class DXB_sms implements sms
  		$phone = $mobile_number;//要发送短信的手机号码
 		$sendurl = $smsapi."sms?u=".$user."&p=".$pass."&m=".$phone."&c=".urlencode($content);
 		$r =file_get_contents($sendurl) ;
-
+        SeasLog::debug($sendurl);
+        SeasLog::debug(var_export($r,true));
 		$result=array();
 		if($r=='0'){
 			$result['status']=true;

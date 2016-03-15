@@ -28,10 +28,9 @@ class XDB_R
 	var $hash_prime = 0;
 
 	// Constructor Function
-	function XDB_R() { }
+	function __construct() { }
 
 	// for PHP5
-	function __construct() { $this->XDB_R(); }
 	function __destruct() { $this->Close(); }
 
 	// Open the database: read

@@ -252,7 +252,9 @@ $(document).ready(function(){
 });
 function viewOp(obj){
 	var viewOx =  obj.find(".viewOpBox");
-
+    if(viewOx.length == 0){
+        return false;
+    }
 	var html = "";
 	viewOx.find("a").each(function(){
 		if($.trim($(this).html())==""){
@@ -265,6 +267,7 @@ function viewOp(obj){
 	var lineheight = obj.outerHeight() - 2;
 	
 	viewOx.css({top:stop,height:sheight,"line-height":lineheight+"px"});
+
 	viewOx.html(viewOx.html().replace(/^\s+|\s+$/g, ''));
 }
 //排序
