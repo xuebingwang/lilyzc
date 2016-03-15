@@ -19,10 +19,33 @@ $(document).on("pageInit","#index-index", function(e, pageId, $page) {
 	     });
     });
 });
+
+$(document).on("pageInit","#deals-selfless", function(e, pageId, $page) {
+    var loading = false;
+    var $content = $($page).find(".content").on('refresh', function(e) {
+        if (loading) return;
+        loading =true;
+        var query = new Object();
+        query.page  =  1;
+        query.is_ajax = 1;
+        // var parms = get_search_parms();
+        var ajaxurl = $("#deals-index .pull_to_refresh_url").val();
+        $.ajax({
+            url:ajaxurl,
+            data:query,
+            success:function(result){
+                loading =false;
+                $content.find(".pull-to-refresh-content").html(result);
+                $.pullToRefreshDone($content);
+            }
+        });
+    });
+});
+
 $(document).on("pageInit","#deals-index", function(e, pageId, $page) {
 	var loading = false;
     var $content = $($page).find(".content").on('refresh', function(e) {
-      	if (loading) return;
+        if (loading) return;
       	loading =true;
       	var query = new Object();
 		query.page  =  1;

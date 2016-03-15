@@ -1,7 +1,7 @@
 {if $smarty.request.hasleftpanel neq 1}
 <div class="panel-overlay"></div>
 <!-- Left Panel with Reveal effect -->
-<div class="panel panel-left panel-reveal theme-dark" id='panel-left-box'>
+<div class="panel panel-right panel-reveal theme-dark" id='panel-left-box'>
     <div class="content-block">
 		<p id="login_status_info">{if !$user_info}您好，您还没有登录哦{else}您好，<span style="color:#fff;">{$user_info.user_name}</span>{/if}</p>
  		<input type="hidden" id="login_status" value="{if !$user_info}0{else}1{/if}">
