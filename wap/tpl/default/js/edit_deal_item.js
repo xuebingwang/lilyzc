@@ -171,10 +171,8 @@ function bind_submit_deal_btn() {
 			success: function(ajaxobj){
 				if(ajaxobj.status)
 				{
-					alert(111);
 					$.showSuccess(ajaxobj.info,function(){
 					 	href = jump;
-					 	alert(222);
 					 	$.router.loadPage(href);
 					});
 				}
