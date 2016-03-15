@@ -109,7 +109,7 @@ class PSCWS4
 	var $_zmap;
 
 	// 构造函数
-	function PSCWS4($charset = 'utf8')
+	function __construct($charset = 'utf8')
 	{
 		$this->_xd = false;
 		$this->_rs = $this->_rd = array();
@@ -117,7 +117,6 @@ class PSCWS4
 	}
 
 	// FOR PHP5
-	function __construct() { $this->PSCWS4(); }
 	function __destruct() { $this->close(); }
 
 	// 设置字符集(ztab)

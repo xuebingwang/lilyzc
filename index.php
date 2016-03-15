@@ -9,6 +9,7 @@
 
 require './system/system_init.php';
 require './app/Lib/App.class.php';
+SeasLog::setLogger('api/lilyzc');
 
 if($_REQUEST['is_pc']==1)
 	es_cookie::set("is_pc","1",24*3600*30);
