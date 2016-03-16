@@ -13,9 +13,10 @@
                     <div class="item-media"><i class="icon iconfont">&#xe62a;</i></div>
                     <div class="item-inner" id="login_status_url">
                         {if $user_info}
-                        <a href="#" onclick="RouterURL('{url_wap r="settings#index"}','#settings-index',2);" class="close-panel">用户中心</a>
+                        <a href="{url_wap r="settings#index"}"  class="close-panel external">用户中心</a>
                         {else}
-                        <a href="#" {if $is_weixin} onclick="RouterURL('{url_wap r="user#login"}','#user-login',1);"{else}onclick="RouterURL('{url_wap r="user#login"}','#user-login');"{/if}   class="close-panel ">登录/注册</a>
+                        <a href="{url_wap r="user#login"}"
+                        class="close-panel external">登录/注册</a>
                         {/if}
                     </div>
                 </div>
@@ -24,7 +25,8 @@
                 <div class="item-content">
                     <div class="item-media"><i class="icon iconfont">&#xe600;</i></div>
                     <div class="item-inner">
-                        <a href="#" onclick="RouterURL('{url_wap r="index"}','#index-index',2);" class="close-panel">网站首页</a>
+                        <a href="{url_wap r="index"}"
+                        class="close-panel external">网站首页</a>
                     </div>
                 </div>
             </li>
@@ -33,7 +35,7 @@
                 <div class="item-content">
                     <div class="item-media"><i class="icon iconfont">&#xe615;</i></div>
                     <div class="item-inner">
-                        <a href="#" onclick="RouterURL('{url_wap r="deals#index"}','#deals-index',2);" class="close-panel">回报众筹</a>
+                        <a href="{url_wap r="deals#index"}" class="close-panel external">产品众筹</a>
                     </div>
                 </div>
             </li>
@@ -41,7 +43,7 @@
                 <div class="item-content">
                     <div class="item-media"><i class="icon iconfont">&#xe62d;</i></div>
                     <div class="item-inner">
-                        <a href="#" onclick="RouterURL('{url_wap r="deals#stock"}','#deals-stock',2);" class="close-panel">{$gq_name}</a>
+                        <a href="{url_wap r="deals#stock"}" class="close-panel external">{$gq_name}</a>
                     </div>
                 </div>
             </li>
@@ -50,7 +52,7 @@
                 <div class="item-content">
                     <div class="item-media"><i class="icon iconfont">&#xe62d;</i></div>
                     <div class="item-inner">
-                        <a href="#" onclick="RouterURL('{url_wap r="stock_transfer#index"}','#stock_transfer-index',2);" class="close-panel">股权转让</a>
+                        <a href="{url_wap r="stock_transfer#index"}" class="close-panel external">股权转让</a>
                     </div>
                 </div>
             </li>
@@ -60,7 +62,7 @@
                 <div class="item-content">
                     <div class="item-media"><i class="icon iconfont">&#xe615;</i></div>
                     <div class="item-inner">
-                        <a href="#" onclick="RouterURL('{url_wap r="deals#index"}','#deals-index',2);" class="close-panel">回报众筹</a>
+                        <a href="{url_wap r="deals#index"}" class="close-panel">产品众筹</a>
                     </div>
                 </div>
             </li>
@@ -69,7 +71,7 @@
                 <div class="item-content">
                     <div class="item-media"><i class="icon iconfont">&#xe62d;</i></div>
                     <div class="item-inner">
-                        <a href="#" onclick="RouterURL('{url_wap r="deals#stock"}','#deals-stock',2);" class="close-panel">{$gq_name}</a>
+                        <a href="{url_wap r="deals#stock"}" class="close-panel external">{$gq_name}</a>
                     </div>
                 </div>
             </li>
@@ -78,7 +80,7 @@
                 <div class="item-content">
                     <div class="item-media"><i class="icon iconfont">&#xe62d;</i></div>
                     <div class="item-inner">
-                        <a href="#" onclick="RouterURL('{url_wap r="stock_transfer#index"}','#stock_transfer-index',2);" class="close-panel">股权转让</a>
+                        <a href="{url_wap r="stock_transfer#index"}" class="close-panel external">股权转让</a>
                     </div>
                 </div>
             </li>
@@ -89,7 +91,7 @@
                 <div class="item-content">
                     <div class="item-media"><i class="icon iconfont">&#xe621;</i></div>
                     <div class="item-inner">
-                        <a href="#" onclick="RouterURL('{url_wap r="deals#selfless"}','#deals-selfless',2);" class="close-panel">公益众筹</a>
+                        <a href="{url_wap r="deals#selfless"}" class="close-panel external">公益众筹</a>
                     </div>
                 </div>
             </li>
@@ -98,7 +100,7 @@
                 <div class="item-content">
                     <div class="item-media"><i class="icon iconfont" style="font-size:1rem;">&#xe62b;</i></div>
                     <div class="item-inner">
-                        <a href="#" onclick="RouterURL('{url_wap r="investor#invester_list"}','#investor-invester_list',2);" class="close-panel">天使投资人</a>
+                        <a href="{url_wap r="investor#invester_list"}" class="close-panel external">天使投资人</a>
                     </div>
                 </div>
             </li>
@@ -106,7 +108,7 @@
                 <div class="item-content">
                     <div class="item-media"><i class="icon iconfont">&#xe62e;</i></div>
                     <div class="item-inner">
-                        <a href="#" onclick="RouterURL('{url_wap r="article_cate"}','#article_cate-index',2);" class="close-panel">新闻资讯</a>
+                        <a href="{url_wap r="article_cate"}" class="close-panel external">新闻资讯</a>
                     </div>
                 </div>
             </li>
@@ -115,7 +117,7 @@
                 <div class="item-content">
                     <div class="item-media"><i class="icon iconfont">&#xe62f;</i></div>
                     <div class="item-inner">
-                        <a href="#" onclick="RouterURL('{url_wap r="finance"}','#finance-index',2);" class="close-panel">创业公司</a>
+                        <a href="{url_wap r="finance"}" class="close-panel external">创业公司</a>
                     </div>
                 </div>
             </li>

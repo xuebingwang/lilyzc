@@ -16,10 +16,10 @@
     <nav class="index_nav">
         <ul class="webkit-box">
             {if $invest_status eq 0}
-                <li class="curr webkit-box-flex"><a href="#" onclick="RouterURL('{url_wap r="deals#index"}','#deals-index',2);">回报众筹</a></li>
+                <li class="curr webkit-box-flex"><a href="#" onclick="RouterURL('{url_wap r="deals#index"}','#deals-index',2);">产品众筹</a></li>
                 <li class="webkit-box-flex"><a href="#" onclick="RouterURL('{url_wap r="deals#index" p="type=1"}','#deals-index',2);">{$gq_name}</a></li>
             {elseif $invest_status eq 1}
-                <li class="curr webkit-box-flex"><a href="#" onclick="RouterURL('{url_wap r="deals#index"}','#deals-index',2);">回报众筹</a></li>
+                <li class="curr webkit-box-flex"><a href="#" onclick="RouterURL('{url_wap r="deals#index"}','#deals-index',2);">产品众筹</a></li>
             {else}
                 <li class="webkit-box-flex"><a href="{url_wap r="deals#index" p="type=1"}" onclick="RouterURL('{url_wap r="deals#index" p="type=1"}','#deals-index',2);">{$gq_name}</a></li>
             {/if}
@@ -100,7 +100,7 @@
             </div>
             <a href="#" onclick="RouterURL('{url_wap r="deals#index"}','#deals-index',2);">
                 <div id="load-more" class="load-more l-btn" style="display:block">
-                    <div class="addMoreProject">更多回报众筹</div>
+                    <div class="addMoreProject">更多产品众筹</div>
                 </div>
             </a>
         {else}
