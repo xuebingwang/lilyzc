@@ -1,9 +1,9 @@
 {include file="inc/header.html"}
 <div class="category-con selectbj" id="categoryList">
   	<div class="tav_nav webkit-box" id="top_search_hd">
-        {if app_conf("INVEST_STATUS") eq 0}
-        <a href="#" onclick="RouterURL('{url_wap r="category#index"}','#content_box',2);" livalue="0" class="search_cate search_cate_l webkit-box-flex cur" checked="checked">产品众筹</a>
-        <a href="#" onclick="RouterURL('{url_wap r="category#gqcate"}','#content_box',2);" livalue="1" class="search_cate search_cate_r webkit-box-flex">{$gq_name}</a>
+        {if app_conf("INVEST_STATUS") eq 0} 
+        <a href="#" onclick="RouterURL('{url_wap r="category#index"}','#content_box',2);" livalue="0" class="search_cate search_cate_l webkit-box-flex ">产品众筹</a>
+        <a href="#" onclick="RouterURL('{url_wap r="category#gqcate"}','#content_box',2);" livalue="1" class="search_cate search_cate_r webkit-box-flex cur" checked="checked">{$gq_name}</a>
         {/if}
     </div>
     <ul class="category_list mod_main">
@@ -15,7 +15,7 @@
 			<ul class="category-table clearfix">
 				{foreach from=$cates item=cates_item}
 				<li>
-					<a href="#" onclick="RouterURL('{url_wap r="deals#index" p="id=$cates_item.id"}','#deals-index',2);" title="{$cates_item.name}">{$cates_item.name}</a>
+					<a href="#" onclick="RouterURL('{url_wap r="deals#index" p="id=$cates_item.id&act=stock"}','#deals-index',2);" title="{$cates_item.name}">{$cates_item.name}</a>
 				</li>
 				{/foreach}
 			</ul>
