@@ -533,17 +533,17 @@ function send_mobile_verify_sms_custom(type,mobile,verify_name){
 	if(type!=2){
 		if($.trim(mobile).length == 0)
 		{			
- 			$.alert("手机号码不能为空");
+            $.toast("手机号码不能为空",1000);
 			return false;
 		}
  		if(!$.checkMobilePhone(mobile))
 		{
- 			$.alert("手机号码格式错误");
+            $.toast("手机号码格式错误",1000);
 			return false;
 		}
 			if(!$.maxLength(mobile,11,true))
 		{
-			$.alert("长度不能超过11位");
+            $.toast("长度不能超过11位",1000);
 			return false;
 		}
 		squery.mobile = $.trim(mobile);
@@ -565,7 +565,7 @@ function send_mobile_verify_sms_custom(type,mobile,verify_name){
 			}
 			else
 			{
-				$.showErr(sdata.info);
+				$.toast(sdata.info,1000);
 				return false;
 			}
 		}
