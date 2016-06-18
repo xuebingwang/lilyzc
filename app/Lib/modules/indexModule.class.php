@@ -60,12 +60,12 @@ class indexModule extends BaseModule
 		}
 		
 		//最新的项目 公益项目
-		if(app_conf("IS_SELFLESS") ==1)
-		{
-			$deal_new_result = get_deal_list('0,4'," d.type=3",'d.is_top DESC,d.id desc');
-			$GLOBALS['tmpl']->assign("deal_new_list_3",$deal_new_result['list']);
-		}
-		
+//		if(app_conf("IS_SELFLESS") ==1)
+//		{
+//			$deal_new_result = get_deal_list('0,4'," d.type=3",'d.is_top DESC,d.id desc');
+//			$GLOBALS['tmpl']->assign("deal_new_list_3",$deal_new_result['list']);
+//		}
+//
 		//最新的项目 融资
 		if(app_conf("IS_FINANCE") ==1)
 		{
