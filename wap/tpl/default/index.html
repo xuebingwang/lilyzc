@@ -27,7 +27,7 @@
     		 <li class="webkit-box-flex"><a href="#" onclick="RouterURL('{url_wap r="deals#house"}','#deals-house',2);">房产众筹</a></li>
     		{/if}
             {if app_conf("IS_SELFLESS")}
-            <li class="webkit-box-flex"><a href="#" onclick="RouterURL('{url_wap r="deals#selfless"}','#deals-selfless',2);">公益众筹</a></li>
+            <!--<li class="webkit-box-flex"><a href="#" onclick="RouterURL('{url_wap r="deals#selfless"}','#deals-selfless',2);">公益众筹</a></li>-->
             {else}
             <li class="webkit-box-flex"><a href="#" onclick="RouterURL('{url_wap r="article_cate"}','#article_cate-index',2);">新闻资讯</a></li>
             {/if}
@@ -68,6 +68,7 @@
                     {/if}
                     {/if}
                     {/foreach}
+
                     <div class="items all_items">
                         <div class="item">
                             <a href="#" onclick="RouterURL('{url_wap r="category#index"}','#category-index');">
@@ -75,6 +76,7 @@
                             </a>
                         </div>
                     </div>
+
                 </li>
             </ul>
         </div>
